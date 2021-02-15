@@ -1,0 +1,33 @@
+body {
+    background-image: url(src/assets/images/Sasuke.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
+
+.content-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-center-left {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.btn-search-field, .btn-send-field {
+    padding: 10px;
+    background-color: #333336;
+}
+.btn-search {
+    background: white url(src/assets/images/search-icon.svg) no-repeat right center;
+    height: 32px;
+    font-size: 20px;
+}
+.btn-send {
+    padding: 10px 20px;
+    font-size: 20px;
+}
